@@ -4,9 +4,17 @@
   Chef wants to divide all the candies such that there is no fight. Find whether such distribution is possible.
 '''
 
+# Taking Number of Test Cases and Looping
 for i in range(int(input())):
-    n = int(input())
-    if n % 3 == 0:
-        print("YES")
-    else:
-        print("NO")
+  
+  # Taking Input For Number of Candies
+  n = int(input())
+    
+  # Checking If Can Be Distributed Into 3
+  if n % 3 == 0:
+    
+    print("YES")
+    
+  else:
+    
+    print("NO")
